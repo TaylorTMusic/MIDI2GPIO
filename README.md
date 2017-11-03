@@ -21,4 +21,6 @@ Current values are as follows. Middle C (60) = GPIO 21, D above middle C (62) = 
 
 You can find out notes and their assigned midi note numbers here: http://cote.cc/w/wp-content/uploads/drupal/blog/logic-midi-note-numbers.png
 
+I've included my pre-built Ableton racks for controling glasses through incoming audio. Place 'MIDI2GPIO Audio Capture' on the audio channel you would like to use to drive LED's 1-3. Place MIDI2GPIO Control on a new MIDI track with the MIDI output assigned to your Raspberry Pi. You must have MAX for Live Installed due to some modules that capture the peak of an audio singal and send a MIDI note once triggered. This emulates those light up T-Shirts and Hats you find at festivals, fairs, raves, etc.
+
 If you have any questions or ideas to expand this project feel free to reach out to me!
