@@ -10,6 +10,8 @@ LED3 = 16 #Assign LED3 to Pin 16
 
 GPIO.setmode(GPIO.BCM) #Use the actual GPIO pin Number instead of board pin numbers
 
+GPIO.setwarnings(False) #Ignore GPIO warnings
+
 GPIO.setup(LED1,GPIO.OUT) #Set LED1 as an output
 GPIO.setup(LED2,GPIO.OUT) #Set LED2 as an output
 GPIO.setup(LED3,GPIO.OUT) #Set LED3 as an output
