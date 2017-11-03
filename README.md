@@ -1,6 +1,6 @@
 # MIDI2GPIO
 
-Using the Pi Zero as a MIDI USB gadget, MIDI2GPIO is a python script that will pass along note and velocity information to the assigned GPIO pins with PWM.
+Using the Pi Zero as a MIDI USB gadget, MIDI2GPIO is a python script that will pass along note and velocity information to the assigned GPIO pins with PWM. Much of the script, and my understanding of even basic python comes from the awesome work by Tobias Wissmueller here: http://www.rampmeupscotty.com/blog/2016/01/24/receiving-midi-on-rpi/
 
 To use this script, I assume you have ssh access over wifi or a usb ethernet adapter, which will be broken after this process. I highly recommend using a Pi Zero W and using the built in WiFi to issue commands over SSH so we can have access to the USB data port.
 
