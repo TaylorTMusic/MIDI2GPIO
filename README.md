@@ -14,7 +14,7 @@ To use this script, I assume you have ssh access over WIFI or a USB ethernet ada
 
 4. Run the script with 'python MIDI2GPIO.py' and test by sending a middle C to your Pi. If all works well, you should see the note, velocity, and brightness level appear on your screen, as well as output on GPIO pin 21.
 
-## Some notes:
+## Some Notes:
 
 I'm using the GPIO number scheme found here: https://pinout.xyz/resources/raspberry-pi-pinout.png
 Current values are as follows. Middle C (60) = GPIO 21, D above middle C (62) = GPIO 20, E above middle C (64) = GPIO 16.
